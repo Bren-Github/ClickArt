@@ -1,0 +1,20 @@
+.bg-gray{background-color: rgb(177, 176, 176);}
+.cuadrito {
+    max-width: 331px;
+    border-radius: 110px;
+}
+.fotito{
+    max-width: 100px;
+}
+.form-control{
+    width: 90%;
+    margin-left: 5%;
+}
+.img{
+    margin-top: -10%;
+    margin-left: -2%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

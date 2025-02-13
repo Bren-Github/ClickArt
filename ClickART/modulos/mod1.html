@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo 01</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #91bff3;
+            color: rgb(0, 0, 0);
+        }
+
+        .loguito{
+            width: 60px;
+        }
+
+        .cositas {
+            position: relative;
+            padding: 100px 20px;
+            text-align: center;
+            background-color: white;
+            overflow: hidden;
+        }
+
+        .cositas h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .cositas h2 {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .btn-custom {
+            background-color: #638aff;
+            border: none;
+        }
+
+        .btn-custom:hover {
+            background-color: #6d33ff;
+        }
+
+        .bolita {
+            position: absolute;
+            background-color: #78adea;
+            border-radius: 50%;
+            opacity: 0.8;
+        }
+
+        .bolita1 {
+            width: 300px;
+            height: 300px;
+            top: -50px;
+            right: 1px;
+        }
+
+        .bolita2 {
+            width: 200px;
+            height: 200px;
+            bottom: 0;
+            right: 100px;
+        }
+
+        .bolita3 {
+            width: 150px;
+            height: 150px;
+            top: 30%;
+            left: 70%;
+        }
+
+        .rayita {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 150px;
+            background-color:  #91bff3;
+            clip-path: polygon(0 70%, 100% 0, 100% 100%, 0 100%);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+            <img class="loguito" src="../sources images/Logo Animación.png" alt="">
+            <h4 class="ms-3 mt-1 text-light ">ClickArt</h4>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                    <p class="mt-2 me-4 text-light">Modulo 01</p>
+                    <a class="btn btn-custom nav-link text-white px-3" href="../Pages/pagina.html">Volver</a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="cositas">
+        <div class="texto text-start w-50 text-dark">
+
+            <h1>El origen de la Fotografía</h1>
+            <p>En este módulo aprenderás sobre los orígenes de la fotografía, los principales hitos históricos y cómo ha influido en nuestra sociedad y cultura contemporánea.</p>
+            <h2>Recursos multimediales:</h2>
+            <p> Video explicativo: Un breve documental que explora los orígenes de la fotografía, destacando a pioneros como Niepce, Daguerre y Fox Talbot, y cómo sus innovaciones sentaron las bases para la fotografía moderna.</p>
+            <p>Lecturas complementarias: Artículos y ensayos que profundizan en los aspectos históricos y técnicos de la fotografía.</p>
+            <p>Galería de imágenes: Una colección de fotografías históricas que ilustran los diferentes períodos y estilos de la fotografía desde sus inicios hasta la actualidad.</p>
+        </div>
+        <!-- Waves -->
+        <div class="rayita"></div>
+
+        <!-- Shapes -->
+        <div class="bolita bolita1"></div>
+        <div class="bolita bolita2"></div>
+        <div class="bolita bolita3"></div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

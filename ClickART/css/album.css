@@ -1,0 +1,48 @@
+/* @keyframes show{
+    from{
+        opacity: 0;
+        scale: 50%;
+    }
+    to{
+        opacity: 5;
+        scale: 100%;
+    }
+} */
+
+.imagenes{
+    overflow: hidden;
+     }
+    
+    
+    .imagenes img{
+        
+        height: 410px;
+        border-radius: 0.5rem;
+        margin: 0.75rem;
+     /*    view-timeline-axis: block;
+        view-timeline-name: --image;
+        animation-timeline: --image;
+        animation-name: show;
+        animation-range: entry 30% cover 50%;
+        animation-fill-mode: both; */
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+    .imagenes img:hover{
+        transform: scale(1.3);
+    }
+    h1{
+        font-family: "Manjari", sans-serif;
+        margin-top: 20px;
+    }
+    i{
+        
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        position: fixed;
+        bottom: 50px;
+        padding-top: 70px;
+        color: black;
+        right: 10px;
+        cursor: pointer;
+    }
