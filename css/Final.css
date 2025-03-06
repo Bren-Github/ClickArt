@@ -1,0 +1,60 @@
+
+.container{
+   padding-top: 20px;
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+    padding-left: 7%;
+    flex-direction: column;
+}
+
+.Iconss{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 105px;
+    padding-left: 7%;
+    font-size: 25px;
+    font-family: "Manjari", sans-serif;
+    text-align: center;
+   
+    
+    
+}
+.prefinal{
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+   
+    
+
+}
+.texto{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+    padding-right: 7%;
+    font-family: "Manjari", sans-serif;
+    margin-top: -7%;
+}
+.fotter{
+    display: flex;
+    background-color: gray;
+    height: 300px;
+}
+.texto1{
+    font-size: 25px;
+}
+.texto2{
+    font-size: 25px;
+}
+.texto3{
+    font-size: 25px;
+}
+
