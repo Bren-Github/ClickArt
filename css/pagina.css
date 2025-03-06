@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(38, 38, 38);
+    background-color: #b8f1cf;
 }
 
 .card{
@@ -24,23 +24,53 @@ p {
     margin-top: 50px;
     margin-bottom: 150px;   
 }
+
+.izquierda{
+    margin-right: 50px;
+}
+
+.navbar{
+    display: block;
+    background-color: #1CB99D;
+}
+
+.loguito{
+    width: 60px;
+}
+
+.arribita{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ladito{
+    display: flex;
+    margin-left: 50px;
+}
 /* .row>* {
 height: 300px;
 height: 600px;
 } */
-
-.img-phone{
-    width:90%;
-}
-.texto{
+.textini{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 105px;
-    padding-left: 7%;
+}
+
+.img-phone{
+    width: 90%;
+    margin-left: 11%;
+    margin-bottom: 15%;
+    margin-top: 12%;
+}
+.texto{
+    
+   
+    margin-right: 10%;
     font-size: 30px;
     font-family: "Manjari", sans-serif;;
     text-align: center;
+    color: black;
 
 
 }
@@ -60,7 +90,7 @@ input{
 
 
 .containerlibro{
-    background-color: rgb(116, 71, 231);
+    background-color: #1CB99D;
     padding-top: 1px;
     padding-bottom: 1px;
 }
