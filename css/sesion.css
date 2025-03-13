@@ -1,7 +1,12 @@
-.bg-gray{background-color: rgb(177, 176, 176);}
+body{
+    background: radial-gradient(rgb(50, 50, 50), rgb(30,30,30), black);
+}
+
+.bg-gray{background-color: rgb(177 176 176 / 20%);}
 .cuadrito {
     max-width: 331px;
     border-radius: 110px;
+    box-shadow: 9px 7px 5px #0c0c0c;
 }
 .fotito{
     max-width: 100px;
@@ -14,6 +19,7 @@
     margin-top: -10%;
     margin-left: -2%;
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -24,5 +30,9 @@ a{
    
 }
 .atras{
-    margin-top: 1%;
+    margin-top: 0.5%;
+}
+
+.col{
+    margin-top: -3%;
 }
