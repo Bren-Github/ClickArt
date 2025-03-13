@@ -22,7 +22,7 @@ p {
     color: white;
     box-sizing: border-box;
     margin-top: 50px;
-    margin-bottom: 150px;   
+    margin-bottom: 90px;   
 }
 
 .izquierda{
@@ -85,7 +85,7 @@ input{
     padding-bottom: 100px;
 }
 .sectionlist{
-    margin-top: -50px;
+    margin-top: -48px;
 }
 
 
@@ -131,3 +131,71 @@ input{
         right: 10px;
         cursor: pointer;
 }
+
+
+
+.sectfoot{
+    margin-top: -16%;
+}
+
+.Logo{
+    margin-top: 25%;
+}
+ 
+ .iconos{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 42%;
+     padding-left: 7%;
+     flex-direction: column;
+ }
+ .icons{
+    margin-left: -15%;
+ }
+ .Iconss{
+     display: flex;
+     flex-direction: column;
+     display: flex;
+     justify-content: start;
+     align-items: start;
+     margin-top: 105px;
+     padding-left: 7%;
+     font-size: 25px;
+     font-family: "Manjari", sans-serif;
+     text-align: center;
+     
+    
+     
+     
+ }
+ .prefinal{
+     display: flex;
+     text-align: end;
+     flex-direction: column;
+    
+     
+ 
+ }
+ .texto{
+     display: flex;
+     justify-content: end;
+     align-items: end;
+     flex-direction: column;
+     font-family: "Manjari", sans-serif;
+     margin-top: -7%;
+ }
+ .fotter{
+     display: flex;
+     background-color: #1CB99D;
+     height: 240px;
+ }
+ .texto1{
+     font-size: 25px;
+ }
+ .texto2{
+     font-size: 25px;
+ }
+ .texto3{
+     font-size: 25px;
+ }
