@@ -16,8 +16,9 @@ function registroDatos (e){
         pass: inputUserPass.value,
         correo: "admin@admin.com",
         apodo: "popi",
-        logged: "false",
-        progreso: 0
+        logged: false,
+        progreso: 0,
+        certificado: false
     }
 
     console.log(inputUserName.value)

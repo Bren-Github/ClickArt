@@ -7,20 +7,34 @@ console.log(inputUserName)
 console.log(inputUserPass)
 
 
+const user = JSON.parse(localStorage.getItem("user")) || []
+
+
 function validarUsuario (e){
     e.preventDefault()
-    
-    let usuarioLocal = localStorage.getItem('user')
-    let passwordLocal = localStorage.getItem('password')
 
-    if(usuarioLocal === inputUserName.value && passwordLocal === inputUserPass.value){
-        console.log('Bienvenido 😎')
-        localStorage.setItem('activo',true)
-        window.location = "../pages/pagina.html"
-        //document.location.href = ".//vistas/userpage.html"
-    }else{
-        console.log('Datos incorrectos 🫠')
+    for (let i = 0; i < user.length; i++) {
+    
+
+        if(user[i].user === inputUserName.value && user[i].pass === inputUserPass.value){
+            console.log('Bienvenido')
+            user[i].logged = true
+            localStorage.setItem('user', JSON.stringify(user))
+            /* window.location = "../pages/pagina.html" */
+            return
+            //document.location.href = ".//vistas/userpage.html"
+
+            
+        }
+        console.log('Datos incorrectos')
+
+          
     }
+    
+   /*  let usuarioLocal = localStorage.getItem('user')
+    let passwordLocal = localStorage.getItem('password') */
+
+    
     
 
     formRegistro.reset()
