@@ -10,8 +10,28 @@ console.log(inputUserPass)
 
 function registroDatos (e){
     e.preventDefault()
-    localStorage.setItem('user',inputUserName.value)
-    localStorage.setItem('password',inputUserPass.value)
+
+    let user = {
+        user: inputUserName.value,
+        pass: inputUserPass.value,
+        correo: "admin@admin.com",
+        apodo: "popi",
+        logged: "false",
+        progreso: 0
+    }
+
+    console.log(inputUserName.value)
+    console.log(inputUserPass.value)
+
+    const users = JSON.parse(localStorage.getItem("user")) || [];
+
+    users.push(user)
+
+    localStorage.setItem("user", JSON.stringify(users))
+    
+
+    /* localStorage.setItem('user',inputUserName.value)
+    localStorage.setItem('password',inputUserPass.value) */
 
     const mensajeExistente = document.querySelector("#mensajeRegistro");
     if (mensajeExistente) {

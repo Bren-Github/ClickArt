@@ -16,7 +16,7 @@ function validarUsuario (e){
     if(usuarioLocal === inputUserName.value && passwordLocal === inputUserPass.value){
         console.log('Bienvenido 😎')
         localStorage.setItem('activo',true)
-        window.location = "../07/userpage.html"
+        window.location = "../pages/pagina.html"
         //document.location.href = ".//vistas/userpage.html"
     }else{
         console.log('Datos incorrectos 🫠')
