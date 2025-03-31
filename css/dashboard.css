@@ -1,0 +1,28 @@
+
+.arribita{
+    display: block;
+    background-color: #1CB99D;
+    margin: 0%;
+}
+.logo{
+    width: 60px;
+    display: flex
+    
+
+}
+.ladod{
+    display: flex;
+    margin-left: 50px;
+}
+.arribita{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    color: azure;
+}
+.usuario{
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+}
