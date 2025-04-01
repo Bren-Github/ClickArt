@@ -1,4 +1,9 @@
-.bg-gray{background-color: rgb(177, 176, 176);}
+body{
+    background: radial-gradient(rgb(50, 50, 50), rgb(30,30,30), black);
+}
+.bg-gray{
+    background-color: rgb(177 176 176 / 20%);
+}
 .cuadrito {
     max-width: 331px;
     border-radius: 110px;
@@ -21,5 +26,5 @@
    
 }
 .atras{
-    margin-top: 1%;
+    margin-top: 0,5%;
 }
