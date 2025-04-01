@@ -92,7 +92,7 @@ input{
 .containerlibro{
     background-color: #1CB99D;
     padding-top: 1px;
-    padding-bottom: 1px;
+    padding-bottom: 20%;
 }
 
 .libro{
