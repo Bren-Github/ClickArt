@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background: #f2f2f2;
+          padding: 30px;
+          text-align: center;
+        }
+    
+        .quiz-container {
+          background: #fff;
+          padding: 20px;
+          max-width: 500px;
+       
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    
+        h2 {
+          margin-bottom: 20px;
+        }
+    
+        .option {
+          display: block;
+          background: #e0e0e0;
+          margin: 10px 0;
+          padding: 10px;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background 0.3s;
+        }
+    
+        .option:hover {
+          background: #d6d6d6;
+        }
+    
+        #result {
+          margin-top: 20px;
+          font-weight: bold;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="quiz-container">
+        <h2>¿En qué siglo se inventó la fotografía?</h2>
+        <div class="option" onclick="checkAnswer(this)">Siglo XVII</div>
+        <div class="option" onclick="checkAnswer(this)">Siglo XVIII</div>
+        <div class="option" onclick="checkAnswer(this)">Siglo XIX</div>
+        <div class="option" onclick="checkAnswer(this)">Siglo XX</div>
+        <div id="result"></div>
+      </div>
+
+      <div class="quiz-container2">
+        <h2>¿En qué siglo se inventó la fotografía?</h2>
+        <div class="option2" onclick="checkAnswer(this)">Siglo XVII</div>
+        <div class="option2" onclick="checkAnswer(this)">Siglo XVIII</div>
+        <div class="option2" onclick="checkAnswer(this)">Siglo XIX</div>
+        <div class="option2" onclick="checkAnswer(this)">Siglo XX</div>
+        <div id="result2"></div>
+      </div>
+
+
+      <script src="../js/quiz1.js"></script>
+</body>
+</html>
