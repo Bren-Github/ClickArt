@@ -3,10 +3,13 @@
     display: block;
     background-color: #1CB99D;
     margin: 0%;
+    height: 100px;
 }
 .logo{
-    width: 60px;
-    display: flex
+    margin-top: 8%;
+    width: 70px;
+    display: flex;
+    height: 70px;
     
 
 }
@@ -20,9 +23,87 @@
 }
 .text{
     color: azure;
+    margin-top: 20%;
+    margin-left: 7%;
+    font-size: 25px;
 }
-.usuario{
+.Usuario{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+    margin-top: 2%;
+}
+.cuadro{
+    margin-top: 4%;
+    background-color: #F1EFEC;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    margin-left: 17%;
+    border-radius: 4%;  
+}
+.Botones{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20%;
+}
+.prb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 300px;
+    font-size: 30px;
+    border-radius: 95px;
+}
+.btnn{
+margin-top: 4%;
+height: 100px;
+    width: 300px;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 95px;
+}
+/* .circle-container {
     position: relative;
-    display: inline-flex;
-    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
 }
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#4db8ff 0%, #f0f0f0 0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.percentage {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4db8ff;
+}
+
+input[type="range"] {
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4db8ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3a9fcc;
+} */
