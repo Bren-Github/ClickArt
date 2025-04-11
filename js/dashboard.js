@@ -9,17 +9,20 @@ for (let i = 0; i < user.length; i++) {
         progreso.textContent = `Progreso: ${user[i].progreso}%`
     }
 }
-/* function updateProgress() {
-    // Obtener el valor del slider
-    const progressValue = document.getElementById("progress-bar").value;
+let current = 0;               // Progreso actual
+  const target = 100;             // Progreso final (puedes cambiarlo)
+  const speed = 200;              // Más bajo = más rápido (milisegundos)
 
-    // Actualizar el porcentaje en el círculo
-    const percentageText = document.getElementById("percentage");
-    percentageText.textContent = `${progressValue}%`;
+  const circle = document.getElementById('progress-circle');
+  const text = document.getElementById('progress-text');
 
-    // Obtener el elemento del círculo
-    const circle = document.getElementById("progress-circle");
+  const updateProgress = () => {
+    if (current <= target) {
+      circle.style.background = `conic-gradient(#1CB99D 0% ${current}%, #ddd ${current}% 100%)`;
+      text.innerText = `${current}%`;
+      current++;
+      setTimeout(updateProgress, speed);
+    }
+  };
 
-    // Actualizar el color del progreso en el círculo usando conic-gradient
-    circle.style.background = `conic-gradient(#4db8ff ${progressValue}%, #f0f0f0 0%)`;
-} */
+  updateProgress();
