@@ -46,6 +46,7 @@ p {
 .ladito{
     display: flex;
     margin-left: 50px;
+    gap: 6px;
 }
 /* .row>* {
 height: 300px;
@@ -151,7 +152,7 @@ input{
      flex-direction: column;
  }
  .icons{
-    margin-left: -15%;
+    margin-left: -9%;
  }
  .Iconss{
      display: flex;
@@ -199,3 +200,12 @@ input{
  .texto3{
      font-size: 25px;
  }
+ .text{
+    font-family: "Manjari", sans-serif;
+    color: white;
+    margin-top: 28px;
+    
+}
+.txt{
+    font-family: "Manjari", sans-serif;
+}

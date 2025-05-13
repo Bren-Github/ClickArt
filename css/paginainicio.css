@@ -96,7 +96,7 @@ a{
     margin-top: 105px;
     padding-left: 7%;
     font-size: 25px;
-    font-family: "Manjari", sans-serif;
+    font-family: "Manjari bold", sans-serif;
     text-align: center;
 }
 .textis{
@@ -110,4 +110,10 @@ a{
     font-family: "Manjari", sans-serif;
     margin-top: -7%;
     margin-right: 85px;
+}
+.titulo{
+    font-family: "Manjari bold", sans-serif;
+}
+.txt{
+    font-family: "Manjari", sans-serif;
 }
