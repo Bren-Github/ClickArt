@@ -35,7 +35,7 @@ p {
 }
 
 .loguito{
-    width: 60px;
+    width: 80px;
 }
 
 .arribita{
@@ -208,4 +208,7 @@ input{
 }
 .txt{
     font-family: "Manjari", sans-serif;
+}
+.textito{
+   font-family: "Manjari", sans-serif;
 }

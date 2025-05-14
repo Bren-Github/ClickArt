@@ -20,7 +20,7 @@ function validarUsuario (e){
             console.log('Bienvenido')
             user[i].logged = true
             localStorage.setItem('user', JSON.stringify(user))
-            window.location = "./pages/pagina.html"
+            window.location = "../pages/pagina.html"
             return
             //document.location.href = ".//vistas/userpage.html"
 
