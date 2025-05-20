@@ -1,7 +1,13 @@
 body{
-    background-color: #b8f1cf;
+    /* ñ */
+    margin: auto;
 }
-
+header{
+background-color: #1CB99D;
+}
+.container{
+margin: auto;
+}
 .card{
     margin: auto;
     margin-bottom: 50px;
@@ -18,20 +24,28 @@ p {
     font-family: "Manjari", sans-serif;   
 }
 
-.container{
+.container1{
     color: white;
     box-sizing: border-box;
     margin-top: 50px;
     margin-bottom: 90px;   
+    
+}
+.container2{
+    color: white;
+    
+    margin-top: 50px;
+    margin-bottom: 90px;   
+    
 }
 
 .izquierda{
-    margin-right: 50px;
+    margin-right: 268px;
 }
 
 .navbar{
     display: block;
-    background-color: #1CB99D;
+    
 }
 
 .loguito{
@@ -45,7 +59,7 @@ p {
 
 .ladito{
     display: flex;
-    margin-left: 50px;
+    margin-left: 290px;
     gap: 6px;
 }
 /* .row>* {
@@ -65,13 +79,13 @@ height: 600px;
     margin-top: 12%;
 }
 .texto{
-    
-   
-    margin-right: 10%;
     font-size: 30px;
     font-family: "Manjari", sans-serif;
     text-align: center;
     color: black;
+    margin-left: 119px;
+    font-weight: bold;
+
 
 
 }
@@ -178,15 +192,15 @@ input{
      
  
  }
- .texto{
+/*  .texto{
      display: flex;
      justify-content: end;
      align-items: end;
      flex-direction: column;
      font-family: "Manjari", sans-serif;
      margin-top: -7%;
-         font-weight: bold;
- }
+    font-weight: bold;
+ } */
  .fotter{
      display: flex;
      background-color: #1CB99D;
@@ -213,5 +227,10 @@ input{
     font-weight: bold;
 }
 .textito{
-   font-family: "Manjari", sans-serif;
+   display: flex;
+     justify-content: end;
+     align-items: end;
+     flex-direction: column;
+     font-family: "Manjari", sans-serif;
+
 }

@@ -5,8 +5,11 @@ body{
     padding: 0;
     box-sizing: border-box;
     /* background-color: rgb(38, 38, 38); */
-    background: radial-gradient(rgb(50, 50, 50), rgb(30,30,30), black);
+    
 } 
+header{
+    background-color: #4e4e4e;
+}
 #container{
     gap: 5px;
 }
@@ -54,7 +57,7 @@ a{
 
 .navbar{
     display: block;
-    background-color: #4e4e4e;
+    
 }
 
 .loguito{

@@ -11,56 +11,60 @@
   
 </head>
 
+<header>
+  
+<nav class="navbar navbar-expand-lg ">
+    <div class="arribita">
+      <div class="ladito">
+
+        <img class="loguito" src="../sources images/Logo Animación.png" alt="">
+        <h4 class="text">ClickArt</h4>
+
+      </div>
+      <div class="izquierda d-flex flex-wrap justify-content-end py-3 mb-6 gap-2 p-2" style="cursor: pointer;">
+        <i class="bi bi-house-door-fill fs-2 text-light" style="cursor: pointer;"></i>
+        <i class="bi bi-grid-fill fs-2 text-light" style="cursor: pointer;"></i>
+        <i class="bi bi-book-fill fs-2 text-light" style="cursor: pointer;"></i>
+        <i class="bi bi-hand-index-thumb-fill fs-2 text-light" style="cursor: pointer"></i>
+        <div class="pt-2">
+          <input type="text" class=" rounded-5">
+          <!-- text-end -->
+        </div>
+        <i class="bi bi-search fs-2 text-light " style="cursor: pointer;"></i>
+        <!-- menu desplegable -->
+        <div class="btn-group">
+          <button class="btn fs-4 dropdown-toggle text-light" type="button" data-bs-toggle="dropdown"
+          data-bs-display="static" aria-expanded="false"> <i class="bi bi-person-circle"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+            <li><a class="dropdown-item" href="./dashboard.html">Progreso</a></li>
+            <li><a class="dropdown-item" href="../Pages/cerrarsesion.html">Cerrar Sesión</a></li>
+          </ul>
+        </div>
+
+      </div>
+  </nav>
+  
+  
+</header>
 <body>
+  <div class="container">
 
-
-    <nav class="navbar navbar-expand-lg ">
-      <div class="arribita">
-        <div class="ladito">
-
-          <img class="loguito" src="../sources images/Logo Animación.png" alt="">
-          <h4 class="text">ClickArt</h4>
-
-        </div>
-        <div class="izquierda d-flex flex-wrap justify-content-end py-3 mb-6 gap-2 p-2" style="cursor: pointer;">
-          <i class="bi bi-house-door-fill fs-2 text-light" style="cursor: pointer;"></i>
-          <i class="bi bi-grid-fill fs-2 text-light" style="cursor: pointer;"></i>
-          <i class="bi bi-book-fill fs-2 text-light" style="cursor: pointer;"></i>
-          <i class="bi bi-hand-index-thumb-fill fs-2 text-light" style="cursor: pointer"></i>
-          <div class="pt-2">
-            <input type="text" class=" rounded-5">
-            <!-- text-end -->
-          </div>
-          <i class="bi bi-search fs-2 text-light " style="cursor: pointer;"></i>
-          <!-- menu desplegable -->
-          <div class="btn-group">
-            <button class="btn fs-4 dropdown-toggle text-light" type="button" data-bs-toggle="dropdown"
-            data-bs-display="static" aria-expanded="false"> <i class="bi bi-person-circle"></i>
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
-              <li><a class="dropdown-item" href="./dashboard.html">Progreso</a></li>
-              <li><a class="dropdown-item" href="../Pages/cerrarsesion.html">Cerrar Sesión</a></li>
-            </ul>
-          </div>
-
-        </div>
-    </nav>
-
-
-  <div class="textini row">
-    <div class="col 6">
-      <img class="img-phone" src="../sources images/img clickart pagina.png" alt="">
+  <section>
+    <div class="textini row">
+      <div class="col 6">
+        <img class="img-phone" src="../sources images/img clickart pagina.png" alt="">
+      </div>
+      <div class="col 6">
+        <p class="texto">"Cada fotografía que capturas es un fragmento de felicidad convertido en memoria eterna."</p>
+  
+      </div>
     </div>
-    <div class="col 6">
-      <p class="texto">"Cada fotografía que capturas es un fragmento de felicidad convertido en memoria eterna."</p>
 
-    </div>
-  </div>
+  </section>
 
   </div>
-
-  <div class="modulos bg-light">
-
+<div class="container">
     <div id="carouselExampleIndicators" class="carousel slide">
       <div class="carousel-indicators ">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -177,19 +181,22 @@
       </button>
     </div>
   </div>
+</div>
+  
+
 
   <!-- LIBRO -->
   <section class="containerlibro">
-    <div class="container">
+    <div class="container1">
       <div class="todito ">
         <div class="libro bg-light rounded-5">
           <img class="imglibro" src="../sources images/libro.png" alt="">
         </div>
-        <div class="textos w-50">
+        <div class="textos">
 
           <img class="imagen" src="../sources images/libro-abierto.png" alt="">
 
-          <p class="textito text-light fs-5">En este libro encontrarás ejemplos de fotografías con las cuales inspirarte
+          <p class="textito text-light">En este libro encontrarás ejemplos de fotografías con las cuales inspirarte
             para hacer las tuyas
             y así mismo ver nuestro trabajo y tener ideas de las variedades de resultados que podrás obtener.</p>
           <button class="btn border border-start-0">
@@ -205,7 +212,6 @@
 
 
   <section class="sectfoot bg-light">
-    <div class="container">
       <div class="contenido row">
           <div class="col">
               <img class="Logo" src="../sources images/Logo ClickART.png" alt="" width="350">
@@ -225,9 +231,8 @@
                   </div>
               </div>
           </div>
-          
         </div>
-      </div>
+     
       <footer>
          <div class="fotter"> 
              <div class="col 6">
@@ -249,7 +254,11 @@
 
       </footer>
   </section>
+    </div>
 
+
+
+    
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
