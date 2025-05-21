@@ -78,16 +78,17 @@ height: 600px;
     margin-bottom: 15%;
     margin-top: 12%;
 }
-.texto{
-    font-size: 30px;
+.textis{
+    /* display: flex;
+    flex-direction: column;
+    align-items: self-end; */
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
     font-family: "Manjari", sans-serif;
-    text-align: center;
-    color: black;
-    margin-left: 119px;
-    font-weight: bold;
-
-
-
+    margin-top: -7%;
+    margin-right: 85px;
 }
 input{
     border: white;
@@ -161,29 +162,26 @@ input{
      display: flex;
      justify-content: center;
      align-items: center;
-     margin-top: 42%;
+     margin-top: 32%;
      padding-left: 7%;
      flex-direction: column;
  }
  .icons{
-    margin-left: -9%;
+    margin-left: 24%;
  }
  .Iconss{
-     display: flex;
-     flex-direction: column;
-     display: flex;
-     justify-content: start;
-     align-items: start;
-     margin-top: 105px;
-     padding-left: 7%;
-     font-size: 25px;
-     font-family: "Manjari", sans-serif;
-     text-align: center;
-     
-    
-     
-     
- }
+   /*  display: flex;
+   flex-direction: column; */
+   display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 105px;
+    padding-left: 7%;
+    font-size: 25px;
+    font-family: "Manjari bold", sans-serif;
+    text-align: center;
+}
  .prefinal{
      display: flex;
      text-align: end;
@@ -192,15 +190,16 @@ input{
      
  
  }
-/*  .texto{
-     display: flex;
-     justify-content: end;
-     align-items: end;
-     flex-direction: column;
+ .texto{
+    /*  display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column; */
      font-family: "Manjari", sans-serif;
-     margin-top: -7%;
+     font-size: 25px;
     font-weight: bold;
- } */
+        margin-left: 82px;
+ }
  .fotter{
      display: flex;
      background-color: #1CB99D;
@@ -217,7 +216,7 @@ input{
  }
  .text{
     font-family: "Manjari", sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 30px;
     font-weight: bold;
     
@@ -227,10 +226,42 @@ input{
     font-weight: bold;
 }
 .textito{
-   display: flex;
-     justify-content: end;
-     align-items: end;
+   font-size: 23px;
      flex-direction: column;
      font-family: "Manjari", sans-serif;
 
 }
+.sec1{
+    background-color: #b8f1cf;
+}
+.sec2{
+    margin-top: 140px;
+    margin-block: 140px;
+    
+}
+.sec3{
+   background-color: #1CB99D;
+   
+}
+.sec5{
+    background-color: #1CB99D;
+    margin-top: 31px;
+}
+/* .text-center{
+        margin-left: 126px;
+    
+} */
+.textoss{
+    font-family: "Manjari", sans-serif;
+     font-size: 25px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.textt{
+    color: black;
+    
+}
+.texto{
+    margin-left: 136px;
+}
+
