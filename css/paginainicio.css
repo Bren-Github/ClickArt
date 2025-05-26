@@ -1,10 +1,10 @@
 
 body{
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: rgb(38, 38, 38); */
+     background-color: rgb(38, 38, 38); 
     
 } 
 header{
@@ -41,7 +41,7 @@ height: 600px;
 
 input{
     border: white;
-    box-shadow: 2px 1px 8px white;
+    box-shadow: 2px 1px 8px rgb(20, 19, 19);
     height: 30px;
 }
 a{
@@ -52,7 +52,7 @@ a{
 
 
 .izquierda{
-    margin-right: 50px;
+     margin-right: 268px;
 }
 
 .navbar{
@@ -67,11 +67,13 @@ a{
 .arribita{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .ladito{
     display: flex;
-    margin-left: 50px;
+    margin-left: 290px;
+    gap: 6px;
 }
 
 .fotter{
@@ -119,4 +121,7 @@ a{
 }
 .txt{
     font-family: "Manjari", sans-serif;
+}
+.sec1{
+    /* background-color: #4e4e4e; */
 }

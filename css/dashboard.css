@@ -1,7 +1,8 @@
-
+.navbar{
+    background-color: #1CB99D;
+}
 .arribita{
     display: block;
-    background-color: #1CB99D;
     margin: 0%;
     height: 100px;
 }
@@ -15,7 +16,7 @@
 }
 .ladod{
     display: flex;
-    margin-left: 50px;
+    margin-right: 50px;
 }
 .arribita{
     display: flex;
