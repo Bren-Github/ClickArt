@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Barra de Progreso</title>
+<style>
+  .progress-container {
+    width: 100%;
+    background-color: #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 25px;
+    margin: 20px 0;
+  }
+  .progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: #4caf50;
+    transition: width 0.3s ease;
+  }
+</style>
+</head>
+<body>
+
+<div class="progress-container">
+  <div id="progress-bar" class="progress-bar"></div>
+</div>
+
+<button onclick="startProgress()">Iniciar Progreso</button>
+
+<script>
+  function startProgress() {
+    const bar = document.getElementById('progress-bar');
+    let width = 0;
+    const interval = setInterval(() => {
+      if (width >= 100) {
+        clearInterval(interval);
+      } else {
+        width++;
+        bar.style.width = width + '%';
+      }
+    }, 30); // Avanza 1% cada 30 ms
+  }
+</script>
+
+</body>
+</html>

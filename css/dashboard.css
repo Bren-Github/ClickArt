@@ -30,8 +30,8 @@
 }
 .btn-group{
     display: flex;
-    justify-content: end;
-    margin-right: 50px;
+        margin-left: 1020px;
+    
 }
 .cuadro{
     margin-top: 5%;
