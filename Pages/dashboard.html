@@ -34,9 +34,7 @@
     <div class="Botones row">
         <div class="col 6">
             <div class="cuadro">
-                <div class="circular-progress" id="progress-circle">
-                    <span id="progress-text">0%</span>
-                </div>
+                <div class="progress-container" id="progress"></div>
                 
             </div>
         </div>
@@ -46,6 +44,30 @@
         </div>
     </div>
 </div>
+<script>
+  const progressContainer = document.getElementById('progress');
+
+  // Crear 13 segmentos
+  for (let i = 0; i < 13; i++) {
+    const segment = document.createElement('div');
+    segment.classList.add('segment');
+    progressContainer.appendChild(segment);
+  }
+
+  let current = 0;
+  function advance() {
+    if (current < 13) {
+      progressContainer.children[current].classList.add('active');
+      current++;
+    } else {
+      clearInterval(intervalId); // Para cuando llegue al final
+    }
+  }
+
+  // Avanza cada 500 ms (0.5 segundos)
+  const intervalId = setInterval(advance, 500);
+</script>
+
   
 
 
