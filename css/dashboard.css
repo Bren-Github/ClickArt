@@ -24,9 +24,11 @@
 }
 .text{
     color: azure;
-    margin-top: 20%;
+    margin-top: 25%;
     margin-left: 7%;
     font-size: 25px;
+    font-family: "Manjari", sans-serif; 
+    font-weight: bold;
 }
 .btn-group{
     display: flex;
@@ -64,6 +66,8 @@
     box-shadow: 1px 4px 6px rgb(16 168 136);
     border: none;
     background-color: white;
+    font-family: "Manjari", sans-serif; 
+    font-weight: bold;
 }
 .btnn{
     margin-top: 4%;
@@ -77,6 +81,8 @@
     box-shadow: 1px 4px 6px rgb(16 168 136);
     border: none;
     background-color: white;
+    font-family: "Manjari", sans-serif; 
+    font-weight: bold;
 }
   .progress-container {
     display: flex;
@@ -94,3 +100,20 @@
   .segment.active {
     background-color: #4caf50;
   }
+.usuario{
+    margin-top: 5px;
+    text-align: left;
+    width: 100px;
+    margin-left: -83px;
+    margin-top: 43px;
+    color: white;
+    font-family: "Manjari", sans-serif; 
+    font-weight: bold;
+}
+.user{
+     text-align: center;
+     font-family: "Manjari", sans-serif; 
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 37%;
+}

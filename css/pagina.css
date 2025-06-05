@@ -265,4 +265,7 @@ input{
 .texto{
     margin-left: 136px;
 }
+.cards{
+    display: flex;
+}
 
