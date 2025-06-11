@@ -15,6 +15,7 @@ margin: auto;
     display: flex;
     flex-direction: column;
     border-radius: 75px;
+        min-height: 389px;
 }
 p {
     margin-top: 0;
@@ -267,5 +268,6 @@ input{
 }
 .cards{
     display: flex;
+        min-height: 389px;
 }
 
