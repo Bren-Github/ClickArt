@@ -18,7 +18,13 @@ function registroDatos (e){
         apodo: "popi",
         logged: false,
         progreso: 0,
-        certificado: false
+        certificado: false,
+        modulos: {
+            modulo1: false,
+            modulo2: false,
+            modulo3: false,
+            modulo4: false
+        }
     }
 
     console.log(inputUserName.value)

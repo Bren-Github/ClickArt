@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,11 @@
             color: rgb(0, 0, 0);
         }
 
-        .loguito{
+        a {
+            text-decoration: none;
+        }
+
+        .loguito {
             width: 60px;
         }
 
@@ -24,7 +29,7 @@
             overflow: hidden;
         }
 
-        .texto{
+        .texto {
             margin-top: -70px;
         }
 
@@ -87,36 +92,44 @@
             left: 0;
             width: 100%;
             height: 150px;
-            background-color:  #b1d2f2;
+            background-color: #b1d2f2;
             clip-path: polygon(0 70%, 100% 0, 100% 100%, 0 100%);
         }
-        .titulo{
-           font-family: "Manjari", sans-serif;
+
+        .titulo {
+            font-family: "Manjari", sans-serif;
             font-weight: bold;
         }
-        .text{
+
+        .text {
             font-family: "Manjari", sans-serif;
 
         }
-        .titul{
-           font-family: "Manjari", sans-serif;
+
+        .titul {
+            font-family: "Manjari", sans-serif;
             font-weight: bold;
             margin-top: 21px;
             margin-left: 10px;
         }
     </style>
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div class="container">
-            <img class="loguito" src="../sources images/Logo Animación.png" alt="">
-            <h4 class="titul text-light ">ClickArt</h4>
+            <a href="../Pages/pagina.html">
+                <div class="d-flex">
+                    <img class="loguito" src="../sources images/Logo Animación.png" alt="">
+                    <h4 class="titul text-light ">ClickArt</h4>
+                </div>
+            </a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="navbar-nav ms-auto">
                     <p class="mt-2 me-4 text-light">Modulo 01</p>
                     <a class="btn btn-custom nav-link text-white px-3" href="../Pages/pagina.html">Volver</a>
-                    
+
                 </div>
             </div>
         </div>
@@ -125,17 +138,28 @@
     <!-- Hero Section -->
     <div class="cositas">
         <div class="container">
-        <div class="texto text-start w-50 text-dark">
 
-                
+            <div class="texto text-start w-50 text-dark">
+
+                <div id="estado" class="d-flex mb-3">
+                Estado: 🔴
+                </div>
                 <h1 class="titulo">El origen de la Fotografía</h1>
-                <p class="text">La fotografía, como la conocemos hoy, nació a finales de la década de 1830 en Francia. Sin embargo, su origen se remonta a mucho antes, con el descubrimiento de la cámara oscura.</p>
+                <p class="text">La fotografía, como la conocemos hoy, nació a finales de la década de 1830 en Francia.
+                    Sin embargo, su origen se remonta a mucho antes, con el descubrimiento de la cámara oscura.</p>
                 <h2 class="titulo">Evolución de la fotografía:</h2>
-                <p class="text"> Cámara oscura: El concepto básico de la fotografía se remonta al siglo V a. C. La cámara oscura, un precursor de la cámara fotográfica, proyectaba imágenes en una superficie, aunque no las grababa.</p>
-                <p>Primeras imágenes permanentes: Joseph Nicéphore Niépce logró la primera imagen permanente en 1826, utilizando una cámara oscura y una placa de peltre recubierta de betún.</p>
-                <p>Daguerrotipo: Louis Daguerre, socio de Niépce, desarrolló el daguerrotipo en 1839, un proceso que permitía obtener imágenes más nítidas y detalladas.</p>
-                <p>Fotografía en color: Los primeros experimentos con fotografía en color se realizaron a mediados del siglo XIX, pero no fue hasta principios del siglo XX que se popularizó la fotografía en color.</p>
-                <p>Fotografía digital: La fotografía digital revolucionó el mundo de la fotografía a finales del siglo XX, permitiendo capturar y almacenar imágenes de forma digital.</p>
+                <p class="text"> Cámara oscura: El concepto básico de la fotografía se remonta al siglo V a. C. La
+                    cámara oscura, un precursor de la cámara fotográfica, proyectaba imágenes en una superficie, aunque
+                    no las grababa.</p>
+                <p>Primeras imágenes permanentes: Joseph Nicéphore Niépce logró la primera imagen permanente en 1826,
+                    utilizando una cámara oscura y una placa de peltre recubierta de betún.</p>
+                <p>Daguerrotipo: Louis Daguerre, socio de Niépce, desarrolló el daguerrotipo en 1839, un proceso que
+                    permitía obtener imágenes más nítidas y detalladas.</p>
+                <p>Fotografía en color: Los primeros experimentos con fotografía en color se realizaron a mediados del
+                    siglo XIX, pero no fue hasta principios del siglo XX que se popularizó la fotografía en color.</p>
+                <p>Fotografía digital: La fotografía digital revolucionó el mundo de la fotografía a finales del siglo
+                    XX, permitiendo capturar y almacenar imágenes de forma digital.</p>
+                <button id="btn-completado" class="btn btn-primary">Marcar como completado</button>
             </div>
         </div>
         <!-- Waves -->
@@ -145,12 +169,14 @@
         <div class="bolita bolita1"></div>
         <div class="bolita bolita2"></div>
         <div class="bolita bolita3"></div>
-        
+
 
     </div>
 
-   
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/mod1.js"></script>
 </body>
+
 </html>
