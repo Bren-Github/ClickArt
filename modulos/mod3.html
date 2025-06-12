@@ -7,6 +7,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        a{
+            text-decoration: none;
+        }
         body {
             background-color: #63abfd;
             color: rgb(0, 0, 0);
@@ -102,8 +105,12 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div class="container">
-            <img class="loguito" src="../sources images/Logo Animación.png" alt="">
-            <h4 class="titul text-light ">ClickArt</h4>
+            <a href="../Pages/pagina.html">
+            <div class="d-flex">
+                    <img class="loguito" src="../sources images/Logo Animación.png" alt="">
+                    <h4 class="titul text-light ">ClickArt</h4>
+                </div>
+            </a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="navbar-nav ms-auto">
                     <p class="mt-2 me-4 text-light">Modulo 03</p>
@@ -119,6 +126,9 @@
         <div class="container">
 
             <div class="texto text-start w-50 text-dark">
+                 <div id="estado" class="d-flex mb-3">
+                Estado: 🔴
+                </div>
                 
                 <h1 class="titulo">Edición Fotográfica con Software Profesional</h1>
                 <p class="text">La edición fotográfica con software profesional trasciende la simple corrección de errores; se erige como una etapa fundamental en el flujo de trabajo de cualquier fotógrafo.</p>
@@ -128,6 +138,7 @@
                 <p class="text">Desde la corrección del balance de blancos para asegurar una representación cromática fiel hasta la manipulación avanzada de la tonalidad, la saturación y la luminancia de colores individuales, el software profesional ofrece un control exhaustivo sobre el espectro visual.</p>
                 <h5 class="titulo">Retoque y Corrección Imperceptible:</h5>
                 <p class="text">Funciones avanzadas de clonado, parcheado y pinceles correctores permiten eliminar imperfecciones, suavizar texturas y realizar retoques sutiles que realzan la belleza del sujeto sin resultar artificiales.</p>
+                <button id="btn-completado" class="btn btn-primary">Marcar como completado</button>
             </div>
         </div>
         <!-- Waves -->
@@ -142,5 +153,6 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/mod3.js"></script>
 </body>
 </html>

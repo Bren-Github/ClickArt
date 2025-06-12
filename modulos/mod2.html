@@ -7,6 +7,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        a{
+            text-decoration: none;
+        }
         body {
             background-color: #99c8fd;
             color: rgb(0, 0, 0);
@@ -98,14 +101,22 @@
             margin-top: 21px;
             margin-left: 10px;
         }
+        .d-flex{
+            display: flex;
+            
+        }
     </style>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div class="container">
-            <img class="loguito" src="../sources images/Logo Animación.png" alt="">
-            <h4 class="titul text-light ">ClickArt</h4>
+            <a href="../Pages/pagina.html">
+            <div class="d-flex">
+                    <img class="loguito" src="../sources images/Logo Animación.png" alt="">
+                    <h4 class="titul text-light ">ClickArt</h4>
+                </div>
+            </a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="navbar-nav ms-auto">
                     <p class="mt-2 me-4 text-light">Modulo 02</p>
@@ -121,6 +132,9 @@
         <div class="container">
 
             <div class="texto text-start w-50 text-dark">
+                <div id="estado" class="d-flex mb-3">
+                Estado: 🔴
+                </div>
                 
                 <h1 class="titulo">Principios Básicos de la Fotografía</h1>
                 <p class="text">La fotografía es un arte y una ciencia que captura momentos y crea imágenes. Para dominarla, es esencial comprender algunos principios fundamentales:</p>
@@ -136,6 +150,7 @@
                                 Un ISO más bajo es ideal para condiciones de mucha luz, mientras que un ISO más alto se utiliza en condiciones de poca luz.
                                 Un ISO muy alto genera ruido en la imagen.
                             </p>
+                            <button id="btn-completado" class="btn btn-primary">Marcar como completado</button>
                         </div>
                     </div>
         <!-- Waves -->
@@ -150,5 +165,6 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/mod2.js"></script>
 </body>
 </html>

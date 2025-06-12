@@ -7,6 +7,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        a{
+            text-decoration: none;
+        }
          body {
             background-color: #53a3ff;
             color: rgb(0, 0, 0);
@@ -103,8 +106,12 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div class="container">
-            <img class="loguito" src="../sources images/Logo Animación.png" alt="">
-            <h4 class="titul text-light ">ClickArt</h4>
+            <a href="../Pages/pagina.html">
+            <div class="d-flex">
+                    <img class="loguito" src="../sources images/Logo Animación.png" alt="">
+                    <h4 class="titul text-light ">ClickArt</h4>
+                </div>
+            </a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="navbar-nav ms-auto">
                     <p class="mt-2 me-4 text-light">Modulo 04</p>
@@ -120,6 +127,9 @@
         <div class="container">
 
             <div class="texto text-start w-50 text-dark">
+                 <div id="estado" class="d-flex mb-3">
+                Estado: 🔴
+                </div>
                 
                 <h1 class="titulo" >Explorando Géneros Fotográficos</h1>
                 <p class="text">La fotografía, en su rica y diversa historia, ha dado lugar a una fascinante variedad de géneros, cada uno con sus propias características, desafíos y formas únicas de interpretar el mundo que nos rodea.</p>
@@ -133,6 +143,7 @@
                 <p class="text">Este género combina la creatividad artística con los objetivos comerciales de la industria de la moda, presentando prendas y estilos de manera atractiva y aspiracional.</p>
                 <h5 class="titulo">Fotografía Nocturna:</h5>
                 <p class="y">Capturando la belleza y la atmósfera del mundo después del anochecer, este género a menudo involucra largas exposiciones y la manipulación de fuentes de luz artificial.</p>
+                <button id="btn-completado" class="btn btn-primary">Marcar como completado</button>
             </div>
         </div>
         <!-- Waves -->
@@ -147,5 +158,6 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/mod3.js"></script>
 </body>
 </html>

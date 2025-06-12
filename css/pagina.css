@@ -39,11 +39,6 @@ p {
     margin-bottom: 90px;   
     
 }
-
-.izquierda{
-    margin-right: 268px;
-}
-
 .navbar{
     display: block;
     
@@ -60,7 +55,6 @@ p {
 
 .ladito{
     display: flex;
-    margin-left: 290px;
     gap: 6px;
 }
 /* .row>* {

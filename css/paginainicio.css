@@ -47,13 +47,6 @@ a{
     text-decoration: none;
     color: black;
 }
-
-
-
-.izquierda{
-     margin-right: 268px;
-}
-
 .navbar{
     display: block;
     
@@ -71,7 +64,6 @@ a{
 
 .ladito{
     display: flex;
-    margin-left: 290px;
     gap: 6px;
 }
 
