@@ -45,44 +45,20 @@
                 <p class="user">Tu progreso</p>
             </div>
             <div class="cuadro">
-                <div class="progress-container" id="progress"></div>
+               <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar" style="width: 0%"></div>
+</div>
                 
             </div>
         </div>
         <div class="col 6">
             <a href="../Pages/Prueba.html"><button class="prb">Prueba</button></a>
             <a href="../Pages/Certificado.html">
-                <button class="btnn">Certificado</button>
+                
             </a>
         </div>
     </div>
 </div>
-<script>
-  const progressContainer = document.getElementById('progress');
-
-  // Crear 13 segmentos
-  for (let i = 0; i < 13; i++) {
-    const segment = document.createElement('div');
-    segment.classList.add('segment');
-    progressContainer.appendChild(segment);
-  }
-
-  let current = 0;
-  function advance() {
-    if (current < 13) {
-      progressContainer.children[current].classList.add('active');
-      current++;
-    } else {
-      clearInterval(intervalId); // Para cuando llegue al final
-    }
-  }
-
-  // Avanza cada 500 ms (0.5 segundos)
-  const intervalId = setInterval(advance, 500);
-</script>
-
-  
-
 
     <!-- <h1 id="saludo-user"></h1>
     <h2 id="progreso">Progreso</h2> -->
