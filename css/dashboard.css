@@ -42,9 +42,7 @@ a{
     background-color: white;
     width: 600px;
     height: 400px;
-    display: flex
-    
-;
+    /* display: flex; */
     margin-left: 15%;
     border-radius: 4%;
     justify-content: center;

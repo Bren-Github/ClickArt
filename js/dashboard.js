@@ -2,11 +2,15 @@ const user = JSON.parse (localStorage.getItem("user")) || []
 
 const saludoUser = document.querySelector("#saludo-user");
 const progreso = document.querySelector("#progreso");
+const progress1 = document.querySelector("#progress-1")
+const progress2 = document.querySelector("#progress-2")
 
 for (let i = 0; i < user.length; i++) {
     if(user[i].logged === true){
         saludoUser.textContent = `Bienvenido ${user[i].user}`
         progreso.textContent = `Progreso: ${user[i].progreso}%`
+        progress1.style.width = `${user[i].progreso}%`
+        progress2.style.width = `${user[i].progreso}%`
     }
 }
 let current = 0;               // Progreso actual
