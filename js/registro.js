@@ -24,7 +24,8 @@ function registroDatos (e){
             modulo2: false,
             modulo3: false,
             modulo4: false
-        }
+        },
+        nombreCertificado: ""
     }
 
     console.log(inputUserName.value)

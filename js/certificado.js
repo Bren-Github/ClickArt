@@ -1,3 +1,14 @@
+
+const users = JSON.parse(localStorage.getItem("user")) || [];
+
+const nombreUsuario = document.querySelector("#nombreAlumno")
+
+for (let i = 0; i < users.length; i++) {
+    if (users[i].logged) {
+        nombreUsuario.textContent = users[i].nombreCertificado 
+    }
+}
+
 document.getElementById("descargarPDF").addEventListener("click", () => {
     const certificado = document.querySelector(".certificate")
     console.log(certificado)
