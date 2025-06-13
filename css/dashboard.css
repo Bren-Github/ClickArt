@@ -39,11 +39,11 @@ a{
     
 }
 .cuadro{
-    margin-top: 5%;
     background-color: white;
     width: 600px;
     height: 400px;
     display: flex
+    
 ;
     margin-left: 15%;
     border-radius: 4%;
@@ -120,3 +120,20 @@ a{
     font-size: 30px;
     margin-right: 37%;
 }
+.contenedor-barra {
+    width: 70%;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 30px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+    margin-top: 170px;
+  }
+
+  .barra {
+    height: 100%;
+    width: 60%; /* Cambia este valor para representar el progreso (0% a 100%) */
+    /* background-color: #1CB99D;; */
+    text-align: center;
+    color: white;
+  }
