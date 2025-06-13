@@ -1,79 +1,87 @@
-body{
+body {
     /* ñ */
     margin: auto;
 }
-header{
-background-color: #1CB99D;
+
+header {
+    background-color: #1CB99D;
 }
-.container{
-margin: auto;
+
+.container {
+    margin: auto;
 }
-.card{
+
+.card {
     margin: auto;
     margin-bottom: 50px;
     text-align: center;
     display: flex;
     flex-direction: column;
     border-radius: 75px;
-        min-height: 389px;
+    min-height: 389px;
 }
+
 p {
     margin-top: 0;
     margin-bottom: 1rem;
-    justify-content: center; 
+    justify-content: center;
     display: flex;
-    font-family: "Manjari", sans-serif;   
+    font-family: "Manjari", sans-serif;
 }
 
-.container1{
+.container1 {
     color: white;
     box-sizing: border-box;
     margin-top: 50px;
-    margin-bottom: 90px;   
-    
-}
-.container2{
-    color: white;
-    
-    margin-top: 50px;
-    margin-bottom: 90px;   
-    
-}
-.navbar{
-    display: block;
-    
+    margin-bottom: 90px;
+
 }
 
-.loguito{
+.container2 {
+    color: white;
+
+    margin-top: 50px;
+    margin-bottom: 90px;
+
+}
+
+.navbar {
+    display: block;
+
+}
+
+.loguito {
     width: 80px;
 }
 
-.arribita{
+.arribita {
     display: flex;
     justify-content: space-between;
 }
 
-.ladito{
+.ladito {
     display: flex;
     gap: 6px;
 }
+
 /* .row>* {
 height: 300px;
 height: 600px;
 } */
-.textini{
+.textini {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.img-phone{
+.img-phone {
     width: 90%;
     margin-left: 11%;
     margin-bottom: 15%;
     margin-top: 12%;
 }
-.textis{
+
+.textis {
     /* display: flex;
     flex-direction: column;
     align-items: self-end; */
@@ -82,93 +90,102 @@ height: 600px;
     align-items: end;
     flex-direction: column;
     font-family: "Manjari", sans-serif;
-    margin-top: -7%;
+    /* margin-top: -7%; */
     margin-right: 85px;
 }
-input{
+
+input {
     border: white;
     box-shadow: 1px 2px 6px white;
     height: 30px;
 }
 
-.modulos{
+.modulos {
     padding-top: 150px;
     padding-bottom: 100px;
 }
-.sectionlist{
+
+.sectionlist {
     margin-top: -48px;
 }
 
 
-.containerlibro{
+.containerlibro {
     background-color: #1CB99D;
     padding-top: 1px;
     padding-bottom: 20%;
 }
 
-.libro{
+.libro {
     width: 325px;
     height: 400px;
     box-shadow: 7px 7px 8px rgb(48, 48, 48);
 }
-.imglibro{
+
+.imglibro {
     width: 320px;
 }
-.chiquita{
+
+.chiquita {
     width: 40px;
 }
-.todito{
+
+.todito {
     display: flex;
     align-items: center;
     padding-left: 135px;
     padding-top: 97px;
     padding-block: 122px
 }
-.textos{
+
+/* .textos {
     margin-left: 100px;
     text-align: center;
-}
-.imagen{
+} */
+
+.imagen {
     width: 60px;
     height: 60px;
     margin-bottom: 2rem;
 }
 
-.salir{
+.salir {
     overflow: clip;
-        position: fixed;
-        bottom: 50px;
-        padding-top: 70px;
-        color: black;
-        right: 10px;
-        cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    padding-top: 70px;
+    color: black;
+    right: 10px;
+    cursor: pointer;
 }
 
 
 
-.sectfoot{
+.sectfoot {
     margin-top: -16%;
 }
 
-.Logo{
+.Logo {
     margin-top: 25%;
 }
- 
- .iconos{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-top: 32%;
-     padding-left: 7%;
-     flex-direction: column;
- }
- .icons{
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32%;
+    padding-left: 7%;
+    flex-direction: column;
+}
+
+/* .icons {
     margin-left: 24%;
- }
- .Iconss{
-   /*  display: flex;
+} */
+
+.Iconss {
+    /*  display: flex;
    flex-direction: column; */
-   display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
@@ -178,90 +195,106 @@ input{
     font-family: "Manjari bold", sans-serif;
     text-align: center;
 }
- .prefinal{
-     display: flex;
-     text-align: end;
-     flex-direction: column;
-    
-     
- 
- }
- .texto{
+
+.prefinal {
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+
+
+
+}
+
+.texto {
     /*  display: flex;
      justify-content: center;
      align-items: center;
      flex-direction: column; */
-     font-family: "Manjari", sans-serif;
-     font-size: 25px;
+    font-family: "Manjari", sans-serif;
+    font-size: 25px;
     font-weight: bold;
-        margin-left: 82px;
- }
- .fotter{
-     display: flex;
-     background-color: #1CB99D;
-     height: 240px;
- }
- .texto1{
-     font-size: 25px;
- }
- .texto2{
-     font-size: 25px;
- }
- .texto3{
-     font-size: 25px;
- }
- .text{
+    max-width: 440px;
+}
+
+.fotter {
+    display: flex;
+    background-color: #1CB99D;
+   /*  height: 240px; */
+}
+
+.texto1 {
+    font-size: 25px;
+}
+
+.texto2 {
+    font-size: 25px;
+}
+
+.texto3 {
+    font-size: 25px;
+}
+
+.text {
     font-family: "Manjari", sans-serif;
     color: rgb(255, 255, 255);
     margin-top: 30px;
     font-weight: bold;
-    
+
 }
-.txt{
+
+.txt {
     font-family: "Manjari", sans-serif;
     font-weight: bold;
 }
-.textito{
-   font-size: 23px;
-     flex-direction: column;
-     font-family: "Manjari", sans-serif;
+
+.textito {
+    font-size: 23px;
+    flex-direction: column;
+    font-family: "Manjari", sans-serif;
 
 }
-.sec1{
+
+.sec1 {
     background-color: #b8f1cf;
 }
-.sec2{
+
+.sec2 {
     margin-top: 140px;
     margin-block: 140px;
-    
+
 }
-.sec3{
-   background-color: #1CB99D;
-   
+
+.sec3 {
+    background-color: #1CB99D;
+
 }
-.sec5{
+
+.sec5 {
     background-color: #1CB99D;
     margin-top: 31px;
 }
+
 /* .text-center{
         margin-left: 126px;
     
 } */
-.textoss{
+.textoss {
     font-family: "Manjari", sans-serif;
-     font-size: 25px;
+    font-size: 25px;
     font-weight: bold;
-    margin-left: 70px;
-}
-.textt{
-    color: black;
-    
-}
-.texto{
-    margin-left: 136px;
-}
-.cards{
-    display: flex;
-        min-height: 389px;
+    /* margin-left: 70px; */
 }
 
+.textt {
+    color: black;
+
+}
+
+/* .texto {
+    margin-left: 136px;
+} */
+
+.cards {
+    display: flex;
+    min-height: 389px;
+}
